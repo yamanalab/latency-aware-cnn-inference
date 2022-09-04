@@ -1,0 +1,37 @@
+# Editor, IDE
+.vscode/
+.idea
+
+# macOS
+.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Generated files
+build/
+bin/
+secrets/
+logs/
+histories/
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Python
+__pycache__/
+.ipynb_checkpoints
+default-*.ipynb
+
+# saved_models/
+graphs/
+train_model/mnist/data/
+train_model/cifar-10/data/
