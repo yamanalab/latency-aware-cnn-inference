@@ -1,0 +1,15 @@
+*
+
+!/src/**
+!/include/**
+!/secrets/**
+!/train_model/**
+!/datasets/**
+!CMakeLists.txt
+!Dockerfile
+!keygen.sh
+!keygen_for_channel-wise.sh
+!batch-axis-inference-execute.sh
+!batch-axis-inference-execute_pruned-model.sh
+!channel-wise-inference-execute.sh
+!channel-wise-inference-execute_pruned-model.sh

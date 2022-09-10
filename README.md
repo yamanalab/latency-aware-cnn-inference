@@ -11,17 +11,19 @@ seal-inference-experiment/
 │
 ├── bin/                  # Generated executable files
 │
-├── datasets/
+├── datasets/             # Make this directory put dataset in this directory by yourself
 │   ├── cifar-10/
 │   └── mnist/
 │
 ├── include/              # Library header files
 │
-├── secrets/              # Generated keys and parameter of SEAL (by gen_keys.cpp)
+├── secrets/              # Generated keys and parameter of SEAL (by gen_keys_XXX.cpp)
 │
 ├── src/                  # Codes for secure inference (C++)
 │   ├── cnn/
+│   ├── example.cpp
 │   ├── gen_keys.cpp
+│   ├── network_sample.cpp
 │   ├── main.cpp
 │   └── utils/
 │
