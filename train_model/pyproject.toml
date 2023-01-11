@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "train_model"
+version = "0.1.0"
+description = ""
+authors = ["Takumi Ishiyama <mt.stone20@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "1.10.0"
+torchvision = "0.11.1"
+torchaudio = "0.10.0"
+h5py = "^3.5.0"
+jupyter = "^1.0.0"
+torchinfo = "^1.5.3"
+matplotlib = "^3.5.0"
+timm = "^0.4.12"
+torchmetrics = "^0.6.1"
+tensorboard = "^2.7.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+black = "^21.10b0"
+isort = "^5.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
