@@ -1,4 +1,4 @@
-# seal-inference-experiment
+# Latency-aware CNN Inference
 Privacy preserving CNN inference over homomorphic encryption (using [Microsoft SEAL version 3.6.6](https://github.com/microsoft/SEAL/tree/3.6.6))
 
 Supports both latency-oriented single image inference (channel-wise packing) and throughput-oriented multiple images inference (batch-axis packing).
